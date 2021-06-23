@@ -1,1 +1,16 @@
 /* Your own custom styles should be here */
+.alignnavitemsright {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sectionone {
+  height: 250px;
+}
+
+.sectionone h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  font-weight: lighter;
+  margin-left: 40px;
+}
