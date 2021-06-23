@@ -34,8 +34,14 @@
 }
 
 .sectiontwo h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: lighter;
   margin-left: 20px;
   margin-bottom: 50px;
+}
+
+.cardrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
