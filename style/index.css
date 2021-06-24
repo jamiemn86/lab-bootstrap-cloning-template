@@ -20,6 +20,28 @@
 
 #navlink {
   color: black;
+  position: relative;
+}
+
+#navlink:hover {
+  color: lightskyblue;
+}
+
+#navlink:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: lightskyblue;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+#navlink:hover:before {
+  visibility: visible;
+  width: 100%;
 }
 
 .sectionone {
